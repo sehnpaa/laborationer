@@ -1,0 +1,21 @@
+{
+  "name": "laborationer",
+  "version": "1.0.0",
+  "private": false,
+  "author": "leitet",
+  "license": "CC0",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "jscs": "^1.13.1",
+    "jshint": "^2.7.0",
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
