@@ -1,9 +1,32 @@
 {
-  "name": "laborationer",
+  "name": "@1dv021/laborationer",
   "version": "1.0.0",
-  "private": false,
-  "author": "leitet",
-  "license": "CC0",
+  "homepage": "http://coursepress.lnu.se/kurs/grundlaggande-programmering/",
+
+  "contributors": [
+    {
+      "name": "Johan Leitet",
+      "email": "johan.leitet@lnu.se"
+    },
+    {
+      "name": "John Häggerud",
+      "email": "john.haggerud@lnu.se"
+    },
+    {
+      "name": "Mats Loock",
+      "email": "mats.loock@lnu.se"
+    },
+    {
+      "name": "Jacob Lindehoff",
+      "email": "jacob.lindehoff@lnu.se"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/1dv021/laborationer.git"
+  },
+  "engines" : { "node" : ">=0.12.0" },
   "dependencies": {},
   "devDependencies": {
     "chai": "^2.3.0",
@@ -16,6 +39,6 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive ./test"
   }
 }
