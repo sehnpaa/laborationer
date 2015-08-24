@@ -39,6 +39,6 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha --recursive ./test"
   }
 }
