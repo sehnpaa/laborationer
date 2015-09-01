@@ -1,7 +1,6 @@
-// run app with 'npm start'
 // run tests with 'npm test'
 
-var vc = require("./value-checker");
+var vc = require("./check-values");
 
 // Test the sum-function here
 
