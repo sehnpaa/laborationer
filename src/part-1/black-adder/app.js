@@ -1,6 +1,6 @@
 // run tests with 'npm test'
 
-var sc = require("./simple-calculator");
+var sc = require("./black-adder");
 var result = sc.add(1, 2);
 
 // Test the sum-function here
