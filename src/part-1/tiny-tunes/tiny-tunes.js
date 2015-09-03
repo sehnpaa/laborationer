@@ -116,7 +116,7 @@ exports.getOdd = function(limit) {
 exports.greetings = function() {
 
     var message = "";
-    var hour = new Date().hour; // hour will be set by the system clock use it in your code
+    var hour = new Date().getHours(); // hour will be set by the system clock use it in your code
 
     // your code here
 
