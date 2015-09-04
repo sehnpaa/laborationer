@@ -33,7 +33,7 @@ exports.concater = function() {
     var time = 10;
     var weeks = "weeks";
 
-    // Your code here - ofcourse you should use the above variables to make the string
+    // Your code here - of course you should use the above variables to make the string
     // to return
 
     return "";
@@ -106,10 +106,10 @@ exports.getOdd = function(limit) {
  * Writes a greeting message to the console depending on what time
  * it is. The function use javascript to get the current time.
  *
- * If hour is between 8 and 11 the message should be "Good morning!"
- * If hour is between 12 and 18 the message should be "Good afternoon!"
- * If hour is between 19 and 24 the message should be "Good evning!"
  * If hour is between 8 and 12 the message should be "Good morning!"
+ * If hour is between 12 and 18 the message should be "Good afternoon!"
+ * If hour is between 18 and 24 the message should be "Good evening!"
+ * If hour is between 24 and 8 the message should be "Good night!"
  *
  * @returns {Number}
  */
@@ -120,7 +120,7 @@ exports.greetings = function() {
 
     // your code here
 
-    // no tests to this. Run "node app.js" to se the console.log
+    // no tests to this. Run "node app.js" to see the console.log
     console.log(message);
 };
 
@@ -187,8 +187,8 @@ exports.robberLanguageEncrypter = function(phrase) {
  *
  * @param {string} domain - The domain name in the URL
  * @param {string} path - The path in the URL
- * @param [isSecure = false] - if true the protocol is https otherwise http
- * @param [port = ""] - The port number of the URL
+ * @param [isSecure = false] - if true the protocol is https otherwise http - optional value, default "http"
+ * @param [port = ""] - The port number of the URL - optional parameter default value ""
  * @returns {string} - Returns the valid URL string. If the call missing parameters (the two fist) or
  * have bad data type the function returns the string "Incorrect parameters"
  */
