@@ -186,7 +186,7 @@ describe("Test makeURL()", function() {
 
 
     it("makeURL(\"lnu.se\", \"program/webbprogrammerare\", false) should" +
-        " return \"https://lnu.se:8080/program/webbprogrammerare/\"", function(done) {
+        " return \"http://lnu.se/program/webbprogrammerare/\"", function(done) {
         expect(t.makeURL("lnu.se", "/program/webbprogrammerare", false))
             .to.eql("http://lnu.se/program/webbprogrammerare/");
         done();
