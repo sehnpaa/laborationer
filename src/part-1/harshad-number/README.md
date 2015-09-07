@@ -24,7 +24,7 @@ Din uppgift är att slutföra implementationen av det påbörjade Harshad-objekt
 
 ## Tips
 
-Funktioner och metoder som *kan* komma till användning beroende hur du väljer att lösa uppgiften.
+Funktioner, metoder, etc. som *kan* komma till användning beroende hur du väljer att lösa uppgiften.
 
 - [Number.toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)
 - [String.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
