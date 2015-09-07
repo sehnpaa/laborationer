@@ -21,3 +21,17 @@ Din uppgift är att slutföra implementationen av det påbörjade Harshad-objekt
 - `getSequence`, returnerar en array innehållande en sekvens av n Harshadtal, där startvärdet, som inte behöver anges och har standardvärdet 0, inte är inkluderat. 
 	- `Harshad.getSequence(3, 160); ` returnerar `[162, 171, 180]`.
 	- `Harshad.getSequence(15); ` returnerar `[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 18, 20, 21, 24 ]`.
+
+## Tips
+
+Funktioner och metoder som *kan* komma till användning beroende hur du väljer att lösa uppgiften.
+
+- [Number.toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)
+- [String.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+- [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+- [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#do...while_statement)
+- [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [Array.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [Array.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
