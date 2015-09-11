@@ -2,7 +2,7 @@
 I denna uppgiften får du kod i form av dels en modul (helper) innehållande en del hjälpfunktioner
 för uppgiften. Dessa fungerar och ska inte ändras.
 
-Din uppgift blir att rätta koden i funktionen "getGangster". Denna funktion tar en sträng i form av initsialer
+Din uppgift blir att rätta koden i funktionen "getGangster". Denna funktion tar en sträng i form av initialer
 på en misstänkt gangster. Metoden getGangster har till uppgift att undersöka dessa initsialer och para ihop dessa
 med rätt gangsternamn. Till sin hjälp kan funktionen använda två hjälpfunktioner som laddas in via modulen "helper".
 Dessa beskrivs nedan.
