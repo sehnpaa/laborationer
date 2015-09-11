@@ -34,7 +34,7 @@ describe("Test the function parse", function() {
         done();
     });
 
-    it("parse('http://lnu.se?key='); should return {}", function(done) {
+    it("parse('http://lnu.se?key='); should return {key : ''}", function(done) {
         var obj = {key: ""};
         expect(qsParser.parse("http://lnu.se?key=")).to.eql(obj);
         done();
