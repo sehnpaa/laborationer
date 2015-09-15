@@ -5,7 +5,7 @@
 
 "use strict";
 
-var mh = require("../../../src/part-1/make-html/make-html");
+var mh = require("../../../src/part-1/make-html-proper/make-html");
 var expect = require("chai").expect;
 
 describe("Tests for makeStartTag", function() {
