@@ -15,7 +15,7 @@ Du ska komplettera filen Ellipse.js med kod som gör det möjligt att instansier
 - `a`, halva storaxelns längd.
 - `b`, halva lillaxelns längd.
 
-__OBS!__ Samtliga egenskaper ska implementeras med hjälp av _"getters"_ och _"setters"_. Det ska bara gå att tilldela egenskaperna tal sörre eller lika med 0. Vid försök att tilldela egenskaperna ett värde som inte kan tolkas som ett tal större eller lika med 0 ska ett undantag av typen `Error` kastas. 
+__OBS!__ Samtliga egenskaper ska implementeras med hjälp av _"getters"_ och _"setters"_. Det ska bara gå att tilldela egenskaperna tal större eller lika med 0. Vid försök att tilldela egenskaperna ett värde som inte kan tolkas som ett tal större eller lika med 0 ska ett undantag av typen `Error` kastas. 
 
 ###Metoder
 
